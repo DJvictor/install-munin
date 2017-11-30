@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: systemli
+  description: role to maintain and configure munin node
+  company: systemli.org
+  license: GPLv3
+  min_ansible_version: 1.9.6
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - trusty
+  categories:
+    - monitoring
+    - system
+  notifications:
+    webhooks: https://galaxy.ansible.com/api/v1/notifications/
+dependencies: []

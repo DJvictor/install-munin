@@ -1,0 +1,6 @@
+---
+- name: Configurando Apache en nuestro servidor local
+  hosts: webN,webM
+  remote_user: root
+  roles:
+    - apache
