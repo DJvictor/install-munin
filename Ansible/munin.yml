@@ -1,6 +1,6 @@
 ---
   - name: Instalación y configuración de un stack para monitoreo con munin.
-    hosts: webM
+    hosts: server001
     remote_user: root
     roles:
      - munin-master
